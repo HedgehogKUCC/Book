@@ -2,7 +2,7 @@
 
 Write a function that reverses a String. The input String is given as an array of characters char[].
 
-Do not allocate extra space for another array, you must do this by **modifying the input array** <font color=blue>in-place</font> with O(1) extra memory.
+Do not [allocate](#chi) extra space for another array, you must do this by **modifying the input array** <font color=blue>in-place</font> with O(1) extra memory.
 
 You may assume all the characters consist of <font color=blue>printable ascii characters.</font>
 
@@ -52,3 +52,6 @@ public class reverseString {
 hello
 olleh
 ```
+
+<h3 id=chi>allocate : 分配</h3>
+
