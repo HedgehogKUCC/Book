@@ -16,7 +16,4 @@ You can always take your time and move slower if you need to.
 
 It's better to move slowly than to quit altogether.
 
-Once you've found your inspiration again, you con then keep going.
-
-
-
+Once you've found your inspiration again, you can then keep going.
