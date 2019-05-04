@@ -1,7 +1,7 @@
 # Voice Tube
 
 <h3>
-To end this, I want to share a quote that's been helping me lately.
+To end this, I want to share a quote that's been helping me lately.<br>
 
 > If you get tired, rest.<br>
 > Don't quit.
