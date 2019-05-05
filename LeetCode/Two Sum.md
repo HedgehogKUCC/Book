@@ -51,7 +51,7 @@ public class TwoSum {
 		
 		for(int result : TwoSum.twoSum(nums, target)) {
 			
-			System.out.println(result + ",");
+			System.out.println(result);
 		}
 	}
 }
