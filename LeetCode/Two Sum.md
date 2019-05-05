@@ -61,4 +61,17 @@ public class TwoSum {
 1,
 2,
 ```
+
+<br>
+
+<h3>
+	
+把 target 值改成 26
+
+</h3>
+	
+```cmd
+3,
+4,
+```
 	
