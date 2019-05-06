@@ -56,3 +56,4 @@ boolean		contains( Object o )
 
 Returns true if this ***Set*** contains the specified element.
 
+</h3>
