@@ -54,6 +54,55 @@ java.util.HashSet
 
 boolean		contains( Object o )
 
-Returns true if this ***Set*** contains the specified element.
+Returns true if this set contains the specified element.
+
+</h3>
+
+```java
+package leetcode;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class JewelsandStones {
+	
+	static String J = "aA";
+	static String S = "aAAbbbb";
+
+	public static int numJewelsInStones(String J, String S) {
+		
+		int res = 0;
+		
+		Set setJ = new HashSet();
+		
+		for(char j : J.toCharArray()) setJ.add(j);
+		
+		for(char s : S.toCharArray()) if(setJ.contains(s)) res++;
+		
+		return res;
+	}
+	
+	public static void main(String[] args) {
+		
+		System.out.println(JewelsandStones.numJewelsInStones(J, S));
+			
+	}
+}
+```
+
+```cmd
+3
+```
+
+<br>
+
+<h3>
+Compile Fail
+
+java.lang.String
+
+boolean		contains( CharSequence s )
+
+Returns true if and only if this String contains the specified ***sequence*** of char values.
 
 </h3>
